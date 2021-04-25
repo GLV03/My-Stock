@@ -11,7 +11,7 @@ body{
     background: linear-gradient(90deg, rgb(113, 2, 177), rgb(87, 2, 245), rgb(0, 162, 255) 100%);
 }
 
-.title{
+#title{
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 24%;
@@ -23,7 +23,7 @@ body{
     text-transform: uppercase;
 }
 
-.button{
+#button{
     position: absolute;
 
     font-family: sans-serif;
@@ -42,7 +42,7 @@ a:link {
 }
 
 a:hover {
-    transition: .8s;
+    transition: .3s;
     color:#f8f1f1;
     background: none;
   }

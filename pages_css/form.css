@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: blueviolet;
+    margin-left: 10%;
+}
+
+#text{
+    font-family: sans-serif;
+    color: blueviolet;
+    margin-left: 7%;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+    color: blueviolet;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.grupo{
+    margin-bottom: 1em;
+}
+
+.grupo label{
+    margin-bottom: 0,2em;
+    color: blueviolet;
+    display: block;
+}
+
+fieldset.grupo{
+    float: left;
+    margin-right: 1em;
+}
+
+.grupo input[type="text"], .grupo[type="email"], .grupo select, .grupo textarea{
+    padding: 0.2em;
+    border: 1px solid blueviolet;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    display: block;
+}
+
+.grupo select option{
+    padding: 1em;
+}
+
+.grupo input:focus, .grupo select:focus .grupo textarea:focus{
+    background: seashell;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: slateblue;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow:  2px 2px 2px rgb(0,0,0,0.2);
+    box-shadow:  1px 1px 1px rgb(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
